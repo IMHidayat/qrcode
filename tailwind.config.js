@@ -4,16 +4,17 @@ export default {
   theme: {
     extend: {
       colors: {
-        main: "rgb(213, 225, 239)",
+        color1: "#fff",
+      },
+      fontSize: {
+        fontsize1: "1rem",
       },
     },
-
     screens: {
-      sm: "640px",
+      xs: { max: "359px" },
       md: "768px",
       lg: "1024px",
       xl: "1280px",
-      "2xl": "1536px",
     },
   },
   plugins: [],

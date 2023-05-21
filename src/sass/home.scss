@@ -1,0 +1,25 @@
+main {
+  @apply min-h-screen;
+  @apply place-content-center;
+  @apply bg-[#d5e1ef];
+  > div {
+    @apply md:w-[350px];
+    @apply place-items-center;
+    @apply rounded-2xl;
+    @apply text-center;
+    @apply overflow-hidden;
+    @apply shadow-lg;
+    @apply bg-white;
+    > img {
+      @apply rounded-2xl;
+      @apply w-96;
+    }
+    > h1 {
+      @apply leading-tight;
+      @apply text-[25px];
+      @apply font-bold;
+      @apply tracking-tighter;
+      @apply text-black;
+    }
+  }
+}
