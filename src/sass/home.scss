@@ -3,15 +3,15 @@ main {
   @apply place-content-center;
   @apply bg-[#d5e1ef];
   > div {
-    @apply md:w-[350px];
+    @apply md:w-[382px];
     @apply place-items-center;
-    @apply rounded-2xl;
+    @apply rounded-3xl;
     @apply text-center;
     @apply overflow-hidden;
     @apply shadow-lg;
     @apply bg-white;
     > img {
-      @apply rounded-2xl;
+      @apply rounded-3xl;
       @apply w-96;
     }
     > h1 {
